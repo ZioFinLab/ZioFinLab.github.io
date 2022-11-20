@@ -115,7 +115,7 @@ author:
       url: "https://blog.naver.com/jihong101"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://ziofinlab.github.io/jihong_universe/"
+      url: "https://github.com/ZioFinLab/jihong_universe"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/jihong.universe/"
@@ -125,7 +125,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://ziofinlab.github.io/jihong_universe/"
+      url: "https://github.com/ZioFinLab/jihong_universe"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/jihong.universe/"
