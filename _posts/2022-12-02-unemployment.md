@@ -1,19 +1,25 @@
 ---
 layout: single
-title: "The Effects of COVID-19 on Worldwide Unemployment"
-categories: [Financial_Econometrics, python, coding]
+title: "How Covid Shifted Macroeconomic Factors Affecting Unemployment: what makes an economy resilient"
+categories: [Financial Econometrics, Python, Multivariable regression]
 toc: true
 author_profile: false
 sidebar:
     nav: "docs"
 ---
 
-Unemployment is a key factor when determining a country’s economic health. It is defined as people who are of age, and ability and looking for a job but have not been able to find one, and the higher the unemployment rate, the more problems a country must face. This paper focuses on the effects of Covid-19 on worldwide unemployment as we undergo the Coronavirus Pandemic and its long-lasting effects. We collected cross-country data from 2019 and 2020 to compare the before and after effects of Covid. We hope to provide a better understanding of what unemployment is, and its different types, and based on our model, we hope to offer a solution on how to overcome the adverse effects of unemployment.
+# How Covid Shifted Macroeconomic Factors Affecting Unemployment: what makes an economy resilient
 
-Unemployment was one of the main consequences of this life-altering event. It can be defined as people who are of age, able, and looking for a job but have not been able to find one. With world-wide mandates to stay at home, those whose jobs couldn't transition to the work from home standard, suffered serious consequences. As restaurants, stores and many other businesses closed down, they had to let go of their employees. Some companies faced the economic impacts of the pandemic as revenue took a halt and cutting down expenses was the only way to stay afloat. With employees being one of the main costs a company can incur, it was expected that they would fire employees day after day. 
 
-For this project, we chose unemployment because we believe that it is a key indicator of the economy’s health or even its future outlook. It's important to keep in mind that the higher unemployment, the less productive an economy is. If people who are of age and able to work are not doing so that means the country is not producing enough or at least not what it is capable of. In certain countries, like the United States, this also means that the state has an extra expense to consider as they need to support those unemployed. We are also interested in understanding which variables influence the unemployment rate because if we understand what variables are important, we would make more effective policies through data-driven decisions, as well as to predict how unemployment will behave in the future. The main objective of this paper is to explain how Covid-19 affected the global unemployment rates and we hope that based on our model, we can offer a solution on how to overcome the negative effects of unemployment.  
+## ABSTRACT
+This research examines how Covid changed significant macroeconomic factors affecting unemployment. The research compares the statistical results of two multivariable regression models in 2019 and 2020. To maximize the validity of each variable, this research conducted significance tests on various units of macroeconomic variables in each cross-sectional model. In addition, the research also investigated how many variables can generate the highest adjusted R-squared by using the Stepwise regression method, which subtracts the least significant variables to improve the efficiency of the models. The research models are adjusted to follow Gauss-Markov Assumptions, representing that the models' results are not biased. 
+The analysis provides three economic insights. Overall, the higher R-squared in 2020 model implies that demand-deficient and structural unemployment are the main types of unemployment after the outbreak of covid. Demographically, countries with high populations in rural areas can deal with unemployment problems better than others since Covid had a relatively lower impact on rural areas. Industrially, countries with high dependency on the service industry were vulnerable to Covid effect on unemployment because the service industry is more susceptible to economic cycles than other industries. 
 
+## 1. Introduction
+The unemployment rate is a key factor when determining a country’s economic health. Countries with high unemployment rates cannot achieve potential real GDP growth, the ideal growth rate with a natural unemployment rate. Unemployment is also a substantial issue for individuals. Because many individuals rely on incomes from their employment, their everyday life will be in danger if a constant high unemployment rate is maintained. As a result, with the inflation rate, the unemployment rate is the main component of ‘Misery Index,’ measuring the degree of economic distress felt by individuals (Clay Halton, 2022).
+The unemployment rate is defined as the portion of people who are looking for a job but have not been able to find one at economically active ages. Because most job seekers are from low or mid-income, a high unemployment rate causes economic polarization (Martin and Alicia, 2000). The wealth disparity generated by unemployment has triggered various social issues, such as Discriminatory abuse, increased homelessness, and elevated anxiety about social safety. Moreover, Covid-19 accelerated the discrepancy further. Wealthy people took advantage of bubble markets, while the middle or lower classes lost jobs and suffered from the disease without proper treatment. The complication will be more stringent unless broad social cooperation is made.
+A profound understanding of the reasons for unemployment is inevitably required to resolve unemployment problems effectively and efficiently. However, the unemployment rate is affected by various factors such as cultural background, economic cycles, and technological changes, therefore resolutions for decreasing unemployment should reflect shifted variables. Moreover, the world has experienced the Covid pandemic, one of the most influential events in human history. Covid explicitly influenced unemployment with massive quarantines and lay-offs. During the Covid downturn, millions lost their lives and jobs. Individuals who could not work remotely lost their jobs or were exposed to a susceptible situation of getting Covid. Not only individuals but many businesses and stores were also closed since they could not sell products or services in person. Even though surviving companies have operated their businesses, they had to lay off employees to cut expenses. The recession of Covid can be compared to the Great Depression in the 1930s (David Wheelock, 2020). The recent unemployment cannot be thoroughly explained without understanding the unprecedented impacts of Covid on the economy.
+In this research, to analyze the paradigm shift of significant variables that affect the unemployment rate, I compare the statistical results of two multivariable regression models in 2019 and 2020. Two regression models are adjusted to follow Gauss-Markov Assumptions. The results of the regression models imposed that the factors affecting the unemployment rate after the outbreak of Covid have shifted from before Covid. 
 
 
 ```python
@@ -346,7 +352,18 @@ dset # set "Date" to indexes of the column
 
 
 
-When we first collected the raw data from the World Bank report for 2019 and 2020, our sample size was sufficient to build a reliable model as we have 166 countries' data. We mostly focused on unemployment and its different types. The Corporate Finance Institute defines unemployment as “individuals who are employable and actively seeking a job but are unable to find a job.” It is important to point out that in order to be considered unemployed, you must be of age, ability, and looking for a job. Older people, kids, or those disabled don't necessarily need to be included in this category and therefore the final unemployment rate will be altered. 
+## 2. Data Description
+### Dependent Variable
+Unemployment is defined as “individuals who are employable and actively seeking a job but are unable to find a job” (CFI Team, 2022). Unemployment can be divided into four types based on the reason for each unemployment (CFI Team, 2022). To identify influential factors to unemployment, I previously understood four types of unemployment and specify which type of unemployment occurred in 2020.
+Demand Deficient Unemployment: Demand Deficient unemployment is caused by decreased demand for employment during a recession. I expected that this type of unemployment accounts for the highest portion of unemployment during Covid. As people went into quarantine, many businesses experienced a loss in consumer demand. To overcome reduced consumer demand, companies would decrease the number of employees and cut labor expenses.
+Frictional Unemployment: Frictional unemployment is a natural part of unemployment that occurs when employees are switching jobs. Because this unemployment is the gap between one job and another, it is inevitable and always exists. I anticipated that this type of unemployment does not have a significant difference before and after Covid.
+Structural Unemployment: Structural unemployment is generated by the disparity between demand and supply of employment such as the requirement of skillsets and geographical location of the jobs. Because people could not fluently travel abroad during Covid, the geographical disparity could cause unemployment. Additionally, the disparity of skillsets can have an important impact on unemployment because the demand of cutting-edge computing skills has significantly increased during Covid.
+Voluntary Unemployment: Voluntary unemployment is caused due to the individual’s decision rather than a structural or economic issue. I did not predict that voluntary unemployment influentially increased during Covid.
+
+### Independent Variables
+I categorized 11 independent variables into five parts as GDP, Inflation, Demographical, Education, and Industry. Because the unemployment rate is influenced by various factors, I tried to collect diverse variables as much as possible. In World Bank data, I figured out 11 variables that have the potential to impact unemployment. Because several countries highly affected by Covid could not provide macroeconomic data, only 127 out of 166 countries have required data in both 2019 and 2020.
+Additionally, private information such as an individual’s skillsets, wealth, and cultural background can influence unemployment, but the data could not be obtained and considered in those models. However, I can intuitively recognize that the part that macroeconomic data cannot justify is the one that private data can explain.
+Furthermore, the unit of macroeconomic data can affect the significance of variables. Through comparing R-squares in cross-sectional models with different units, logarithm and value, I used the unit with high R-square and low P values to maximize the explainability of variables.
 
 
 ```python
@@ -487,44 +504,45 @@ scatter_subs(data=dset, col_1="unemp", col_2="lpserv", color="orange")
     8.21267716535433
     1.443116913731061
 
+![output_7_1](../images/2022-12-02-unemployment/output_7_1.png)
 
+![output_7_2](../images/2022-12-02-unemployment/output_7_2.png)
 
+![output_7_3](../images/2022-12-02-unemployment/output_7_3.png)
 
-![output_7_1](../images/2022-11-19-second/output_7_1.png)
-    
+![output_7_4](../images/2022-12-02-unemployment/output_7_4.png)
 
-![output_7_2](../images/2022-11-19-second/output_7_2.png)
+![output_7_5](../images/2022-12-02-unemployment/output_7_5.png)
 
-![output_7_3](../images/2022-11-19-second/output_7_3.png)
+![output_7_6](../images/2022-12-02-unemployment/output_7_6.png)
 
-![output_7_4](../images/2022-11-19-second/output_7_4.png)
+![output_7_7](../images/2022-12-02-unemployment/output_7_7.png)
 
-![output_7_5](../images/2022-11-19-second/output_7_5.png)
+![output_7_8](../images/2022-12-02-unemployment/output_7_8.png)
 
-![output_7_6](../images/2022-11-19-second/output_7_6.png)
+![output_7_9](../images/2022-12-02-unemployment/output_7_9.png)
 
-![output_7_7](../images/2022-11-19-second/output_7_7.png)
+![output_7_10](../images/2022-12-02-unemployment/output_7_10.png)
 
-![output_7_8](../images/2022-11-19-second/output_7_8.png)
+![output_7_11](../images/2022-12-02-unemployment/output_7_11.png)
 
-![output_7_9](../images/2022-11-19-second/output_7_9.png)
+![output_7_12](../images/2022-12-02-unemployment/output_7_12.png)
 
-![output_7_10](../images/2022-11-19-second/output_7_10.png)
+![output_7_13](../images/2022-12-02-unemployment/output_7_13.png)
 
-![output_7_11](../images/2022-11-19-second/output_7_11.png)
+![output_7_14](../images/2022-12-02-unemployment/output_7_14.png)
 
-![output_7_12](../images/2022-11-19-second/output_7_12.png)
+![output_7_15](../images/2022-12-02-unemployment/output_7_15.png)
 
-![output_7_13](../images/2022-11-19-second/output_7_13.png)
+![output_7_16](../images/2022-12-02-unemployment/output_7_16.png)
 
-![output_7_14](../images/2022-11-19-second/output_7_14.png)
+![output_7_17](../images/2022-12-02-unemployment/output_7_17.png)
 
-![output_7_15](../images/2022-11-19-second/output_7_15.png)
+## 3. Validity of Empirical Models
 
-![output_7_16](../images/2022-11-19-second/output_7_16.png)
-
-![output_7_17](../images/2022-11-19-second/output_7_17.png)
-
+### 3.1. Logarithm vs Real Number
+Based on the research, I selected 11 independent variables to regress unemployment. First, I confirmed which unit of the industry's value-added was used in regression models. Because logarithmic expression can explicitly present the coefficient correlation between independent variables and dependent variables, and it makes outliers centralized, large numbers are transformed into logarithmic form. However, how large numbers should be transformed in logarithms is obscure. For example, total GDP, more than a million dollars and obviously large, should be converted to logarithm form, whereas total agriculture value added per capita that has a minimum of 21 and maximum of 3017 is obscure to change its form. I conducted further analysis to determine whether the variables are shifted to logarithmic form. With 2019 cross-sectional data, I compared the R-squared and P-values of the three options below.
+With the other 8 variables, I considered three options and regressed all options:
 
 
 ```python
@@ -718,6 +736,9 @@ print(results19.f_test("(cpi19 = lpmanv19 = 0)"))
     <F test: F=array([[1.11948456]]), p=0.329861190185458, df_denom=119, df_num=2>
 
 
+### 3.2. Stepwise Regression Method
+Since some countries that more seriously suffered from Covid-19 in 2020 than others could not collect sufficient macroeconomic data, only 122 out of 166 countries had all the data. Because the number of dependent variables was about 10% of the total sample, overfitted variables could hurt the degree of freedom. As some variables were not statistically significant and decreased adjusted R-squared, I decided to decrease the number of variables based on both adjusted R and t-value.
+
 
 ```python
 dset['const'] = 1
@@ -808,6 +829,26 @@ print(results20.summary())
     strong multicollinearity or other numerical problems.
 
 
+### 3.3. Gauss-Markov Assumptions
+I checked whether Gauss-Markov’s 5 assumptions of OLS were followed.
+
+Assumption MLR. 1 : Linear in Parameters
+
+Efficient models show the linear relationship between the unemployment rate (dependent variable) and independent variables (total GDP, GDP growth rate, cpi, % of the rural population, manufacturing value-added, and service value added). Therefore, the models follow the 1st assumption of MLR.
+
+Assumption MLR. 2 : Random Sampling
+
+I collected data from the World Bank across countries and used all available data. Data were not selected by specific rules or bias. Therefore, the samples in the models are unbiased and follow the 2nd assumption.
+
+Assumption MLR. 3 : No perfect Collinearity
+
+I calculated correlations between seven independent variables and could not find any perfect collinearity. The correlation between total GDP and the total population had a high correlation of 0.8557, and the correlation between manufacturing value added and service value added was also a high correlation with 0.9443, but those cases were not perfect collinearity since neither of them was 1 nor -1.
+
+Assumption MLR. 4 : Zero Conditional Mean
+
+Omitting an important independent variable that is highly correlated with independent variables could cause a violation of the 4th assumption. To verify whether the efficient models omit the variable, I calculated residuals for each model based on efficient models. I obtained the results of the correlation between residuals and independent variables, as well as the p-values of each independent variable. As a result, there was no statistically significant independent variable to the residual. Even the highest absolute value of correlation is the correlation of 0.00894 between cpi and residuals. The correlation is too small to have a certain relationship. In addition, most P-values gathered were above 0.9, and the smallest P-value is 0.3178. Considering the fact that the usual boundary is 5% or 10%, 31.75% of the P-value illustrates that the independent variable is not statistically significant.
+Furthermore, I analyzed the scatter plots between residuals and independent variables. I could confirm that there is no explicit relationship between the residuals and independent variables. Therefore, based on the results of correlation and P-value between residuals and independent variables, I concluded that the efficient models follow the 4th assumption, Zero conditional means.
+
 
 ```python
 cortest = dset.loc[:,['lGDP19','gGDP19','cpi19','ltotpop19','prur19','lpmanv19','lpserv19']]
@@ -878,10 +919,7 @@ plt.ylabel('Standardized Residuals')
 plt.show()
 ```
 
-
-​    
-![png](output_18_0.png)
-​    
+   ![output_18_0](../images/2022-12-02-unemployment/output_18_0.png)
 
 
 
@@ -945,49 +983,19 @@ scatter_resid("lpserv")
     (-0.0013055649129459818, 0.9883772262686317)
     (-0.000380295045957475, 0.99661432030712)
 
+![output_20_1](../images/2022-12-02-unemployment/output_20_1.png)
 
+![output_20_2](../images/2022-12-02-unemployment/output_20_2.png)
 
+![output_20_3](../images/2022-12-02-unemployment/output_20_3.png)
 
-![png](output_20_1.png)
-    
+![output_20_4](../images/2022-12-02-unemployment/output_20_4.png)
 
+![output_20_5](../images/2022-12-02-unemployment/output_20_5.png)
 
+![output_20_6](../images/2022-12-02-unemployment/output_20_6.png)
 
-
-![png](output_20_2.png)
-    
-
-
-
-
-![png](output_20_3.png)
-    
-
-
-
-
-![png](output_20_4.png)
-    
-
-
-
-
-![png](output_20_5.png)
-    
-
-
-
-
-![png](output_20_6.png)
-    
-
-
-
-
-![png](output_20_7.png)
-    
-
-
+![output_20_7](../images/2022-12-02-unemployment/output_20_7.png)
 
 ```python
 cortest = dset.loc[:,['lGDP19','gGDP19','cpi19','ltotpop19','prur19','lpmanv19','lpserv19']]
@@ -1045,6 +1053,10 @@ print(crrMat)
     lpserv20     1.000000    -0.000380  
     std_resid20 -0.000380     1.000000  
 
+
+Assumption MLR. 5 : Homoscedasticity
+
+To test whether the models are heteroscedasticity, I utilized the Breusch and Pagan test. The B-P (Breusch and Pagan) test is the regression result between squared residuals and independent variables. If the f-statistic of the model is higher than the critical value and the p-value of the f-statistic is less than the significance level, the regression model shows heteroscedasticity. The regression results are below
 
 
 ```python
@@ -1226,7 +1238,3 @@ print(results20.summary())
     strong multicollinearity or other numerical problems.
 
 
-
-```python
-
-```
