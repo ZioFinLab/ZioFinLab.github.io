@@ -98,8 +98,7 @@ plt.spy(stock_prices)
 
 
 
-    
-![png](output_6_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_6_1.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -170,7 +169,7 @@ plt.spy(K_prices)
 
 
     
-![png](output_9_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_9_1.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -230,7 +229,7 @@ plt.spy(p_prices)
 
 
     
-![png](output_12_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_12_2.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -280,7 +279,7 @@ plt.spy(c_prices)
 
 
     
-![png](output_15_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_15_1.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -370,7 +369,7 @@ for i in range(0, N+1 ):
 
 
     
-![png](output_18_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_18_2.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -392,7 +391,7 @@ print(tabulate(rf_matrix.round(4)))
 
 
     
-![png](output_19_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_19_1.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -428,7 +427,7 @@ plt.spy(q_value)
 
 
     
-![png](output_21_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_21_1.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -534,7 +533,7 @@ plt.spy(hp_value)
 
 
     
-![png](output_25_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_25_2.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -556,7 +555,7 @@ print(tabulate(cb_value.round(0)))
 
 
     
-![png](output_26_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_26_1.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -583,7 +582,7 @@ plt.spy(eq_value)
 
 
     
-![png](output_27_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_27_2.png" alt="family_1" style="zoom:100%;" />    
     
 
 
@@ -610,7 +609,7 @@ plt.spy(db_value)
 
 
     
-![png](output_28_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-TFmodel_basic/output_28_2.png" alt="family_1" style="zoom:100%;" />    
     
 
 
