@@ -804,7 +804,7 @@ print(result_OLS.params[0:])
     DOGE_diff      0.000118
     dtype: float64
 
-<img src="ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_9_1.png" alt="family_1" style="zoom:100%;" />
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_9_1.png" alt="family_1" style="zoom:100%;" />
 
 ```python
 TSLA_EN = LassoCV(cv=10, random_state=1)
@@ -822,7 +822,7 @@ print(TSLA_EN.coef_)
      -0.          0.          0.          0.          0.          0.
       0.          0.          0.          0.          0.          0.        ]
 
-<img src="ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_10_1.png" alt="family_1" style="zoom:100%;" />
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_10_1.png" alt="family_1" style="zoom:100%;" />
 
 ```python
 TSLA = dset.loc["2017-01-01": ,"TSLA_diff"]
@@ -859,7 +859,7 @@ print(result_OLS.params[0:])
     DOGE_diff      0.000150
     dtype: float64
 
-<img src="ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_11_1.png" alt="family_1" style="zoom:100%;" />
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_11_1.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -879,7 +879,7 @@ print(TSLA_EN.coef_)
       0.          0.05125903  0.          0.02463747 -0.          0.
       0.          0.0127104   0.02291635  0.00664378  0.          0.00013601]
 
-<img src="ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_12_1.png" alt="family_1" style="zoom:100%;" />
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_12_1.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -918,7 +918,7 @@ print(result_OLS.params[0:])
     DOGE_diff      0.000170
     dtype: float64
 
-<img src="ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_13_1.png" alt="family_1" style="zoom:100%;" />
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_13_1.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -941,7 +941,7 @@ print(TSLA_EN.coef_)
 
 
 
-<img src="ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_14_1.png" alt="family_1" style="zoom:100%;" />
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_14_1.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -1079,7 +1079,7 @@ ax.legend([f"VAR Forecast, MSE={var_mse1}", "TSLA Real Fluctuations"])
 
     <matplotlib.legend.Legend at 0x272c5e19550>
 
-<img src="ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_21_1.png" alt="family_1" style="zoom:100%;" />
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_21_1.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -1169,7 +1169,7 @@ ax.legend(["Fitted TSLA","Actual TSLA"])
 
 
 
-<img src="ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_24_1.png" alt="family_1" style="zoom:100%;" />
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_24_1.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -1397,7 +1397,7 @@ ax.legend([f"VAR Forecast, MSE={var_mse2}", "TSLA Real Fluctuations"])
     <matplotlib.legend.Legend at 0x272c71231f0>
 
 
-<img src="ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_29_1.png" alt="family_1" style="zoom:100%;" />
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Forecasting_project_tsla/output_29_1.png" alt="family_1" style="zoom:100%;" />
     
 
 

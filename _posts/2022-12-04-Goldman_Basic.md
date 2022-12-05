@@ -92,7 +92,7 @@ plt.spy(stock_prices)
 
 
 
-![output_6_1](../images/2022-12-04-Goldman_Basic/output_6_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Goldman_Basic/output_6_1.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -155,7 +155,7 @@ plt.spy(K_prices)
 
 
 
-![output_9_1](../images/2022-12-04-Goldman_Basic/output_9_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Goldman_Basic/output_9_1.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -209,7 +209,7 @@ plt.spy(p_prices)
 
     <matplotlib.image.AxesImage at 0x2497f8fc520>
 
-![output_12_2](../images/2022-12-04-Goldman_Basic/output_12_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Goldman_Basic/output_12_2.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -266,7 +266,7 @@ plt.spy(c_prices)
 
 
 
-![output_15_2](../images/2022-12-04-Goldman_Basic/output_15_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Goldman_Basic/output_15_2.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -322,7 +322,7 @@ for i in range(1, N+1 ):
     0    0    0    0.1
     ---  ---  ---  ---
 
-![output_18_1](../images/2022-12-04-Goldman_Basic/output_18_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Goldman_Basic/output_18_1.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -341,7 +341,7 @@ print(tabulate(rf_matrix.round(4)))
     0     0     0     0.02
     ----  ----  ----  ----
 
-![output_19_1](../images/2022-12-04-Goldman_Basic/output_19_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Goldman_Basic/output_19_1.png" alt="family_1" style="zoom:100%;" />
 
 
 # Q-Value Tree
@@ -365,7 +365,7 @@ plt.spy(q_value)
 
     <matplotlib.image.AxesImage at 0x2497fb1bd00>
 
-![output_21_1](../images/2022-12-04-Goldman_Basic/output_21_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Goldman_Basic/output_21_1.png" alt="family_1" style="zoom:100%;" />
 
 ```python
 print(tabulate(q_value.round(4)))
@@ -453,7 +453,7 @@ plt.spy(hp_value)
 
     <matplotlib.image.AxesImage at 0x2497ffb7130>
 
-![output_24_2](../images/2022-12-04-Goldman_Basic/output_24_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Goldman_Basic/output_24_2.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -486,7 +486,7 @@ print(tabulate(cb_value.round(0)))
         0      0      0  11100
     -----  -----  -----  -----
 
-![output_26_1](../images/2022-12-04-Goldman_Basic/output_26_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-04-Goldman_Basic/output_26_1.png" alt="family_1" style="zoom:100%;" />
 
 
 

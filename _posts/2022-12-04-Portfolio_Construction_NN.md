@@ -1385,7 +1385,7 @@ plt.show()
 
 
 
-![output_23_0](../images/Portfolio_Construction_NN/output_23_0.png)
+<img src="https://ZioFinLab.github.io/images/Portfolio_Construction_NN/output_23_0.png" alt="family_1" style="zoom:100%;" />
 
 
 
