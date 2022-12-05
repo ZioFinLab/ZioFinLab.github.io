@@ -7,6 +7,9 @@ author_profile: false
 sidebar:
     nav: "docs"
 ---
+**[Notice]** [Journey to the academic researcher](https://ziofinlab.github.io/biography/bio/)
+This is the story of how I became the insightful researcher.
+{: .notice--info}
 
 This code can scrape the tweets' data from the Twitter server. Before implementing this code, users need to register their accounts to developer accounts and get various keys to free access to the server. Users should explain their purposes for using Twitter API to get the keys. If they sufficiently explain their goals or the goals are not suitable to utilize the API, Twitter will deny their registration. Users without authorization can not use all API functions and will be strictly restricted by Twitter.
 Furthermore, even though users get full authorization, they only can request 900 data per 15mins to mitigate Twitter servers' overworks.

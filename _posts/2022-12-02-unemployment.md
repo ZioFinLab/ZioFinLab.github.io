@@ -8,8 +8,9 @@ sidebar:
     nav: "docs"
 ---
 
-# How Covid Shifted Macroeconomic Factors Affecting Unemployment: what makes an economy resilient
-
+**[Notice]** [Journey to the academic researcher](https://ziofinlab.github.io/biography/bio/)
+This is the story of how I became the insightful researcher.
+{: .notice--info}
 
 ## ABSTRACT
 This research examines how Covid changed significant macroeconomic factors affecting unemployment. The research compares the statistical results of two multivariable regression models in 2019 and 2020. To maximize the validity of each variable, this research conducted significance tests on various units of macroeconomic variables in each cross-sectional model. In addition, the research also investigated how many variables can generate the highest adjusted R-squared by using the Stepwise regression method, which subtracts the least significant variables to improve the efficiency of the models. The research models are adjusted to follow Gauss-Markov Assumptions, representing that the models' results are not biased. 
@@ -504,39 +505,39 @@ scatter_subs(data=dset, col_1="unemp", col_2="lpserv", color="orange")
     8.21267716535433
     1.443116913731061
 
-![output_7_1](../images/2022-12-02-unemployment/output_7_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_1.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_2](../images/2022-12-02-unemployment/output_7_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_2.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_3](../images/2022-12-02-unemployment/output_7_3.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_3.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_4](../images/2022-12-02-unemployment/output_7_4.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_4.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_5](../images/2022-12-02-unemployment/output_7_5.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_5.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_6](../images/2022-12-02-unemployment/output_7_6.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_6.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_7](../images/2022-12-02-unemployment/output_7_7.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_7.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_8](../images/2022-12-02-unemployment/output_7_8.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_8.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_9](../images/2022-12-02-unemployment/output_7_9.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_9.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_10](../images/2022-12-02-unemployment/output_7_10.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_10.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_11](../images/2022-12-02-unemployment/output_7_11.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_11.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_12](../images/2022-12-02-unemployment/output_7_12.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_12.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_13](../images/2022-12-02-unemployment/output_7_13.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_13.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_14](../images/2022-12-02-unemployment/output_7_14.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_14.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_15](../images/2022-12-02-unemployment/output_7_15.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_15.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_16](../images/2022-12-02-unemployment/output_7_16.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_16.png" alt="family_1" style="zoom:100%;" />
 
-![output_7_17](../images/2022-12-02-unemployment/output_7_17.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_7_17.png" alt="family_1" style="zoom:100%;" />
 
 ## 3. Validity of Empirical Models
 
@@ -919,7 +920,7 @@ plt.ylabel('Standardized Residuals')
 plt.show()
 ```
 
-   ![output_18_0](../images/2022-12-02-unemployment/output_18_0.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_18_0.png" alt="family_1" style="zoom:100%;" />
 
 
 
@@ -983,19 +984,19 @@ scatter_resid("lpserv")
     (-0.0013055649129459818, 0.9883772262686317)
     (-0.000380295045957475, 0.99661432030712)
 
-![output_20_1](../images/2022-12-02-unemployment/output_20_1.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_20_1.png" alt="family_1" style="zoom:100%;" />
 
-![output_20_2](../images/2022-12-02-unemployment/output_20_2.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_20_2.png" alt="family_1" style="zoom:100%;" />
 
-![output_20_3](../images/2022-12-02-unemployment/output_20_3.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_20_3.png" alt="family_1" style="zoom:100%;" />
 
-![output_20_4](../images/2022-12-02-unemployment/output_20_4.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_20_4.png" alt="family_1" style="zoom:100%;" />
 
-![output_20_5](../images/2022-12-02-unemployment/output_20_5.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_20_5.png" alt="family_1" style="zoom:100%;" />
 
-![output_20_6](../images/2022-12-02-unemployment/output_20_6.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_20_6.png" alt="family_1" style="zoom:100%;" />
 
-![output_20_7](../images/2022-12-02-unemployment/output_20_7.png)
+<img src="https://ZioFinLab.github.io/images/2022-12-02-unemployment/output_20_7.png" alt="family_1" style="zoom:100%;" />
 
 ```python
 cortest = dset.loc[:,['lGDP19','gGDP19','cpi19','ltotpop19','prur19','lpmanv19','lpserv19']]

@@ -7,6 +7,9 @@ author_profile: false
 sidebar:
     nav: "docs"
 ---
+**[Notice]** [Journey to the academic researcher](https://ziofinlab.github.io/biography/bio/)
+This is the story of how I became the insightful researcher.
+{: .notice--info}
 
 The text analysis code for isolating the 'risk factors' section from 10 years of 10-Ks.
 This code comprises two sections. First, I Isolated 'risk factors' sections from 10 years of 10-Ks. The main idea of the isolation is finding patterns that represent where is risk factors section and utilizing the patterns in other remaining 10-Ks. Second, I categorized each sentence into ESG issues and counted the number of each category based on the BERT package established by professors Huang, Wang, and Yang.

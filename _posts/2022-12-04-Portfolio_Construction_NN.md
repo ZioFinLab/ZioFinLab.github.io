@@ -7,6 +7,10 @@ author_profile: false
 sidebar:
     nav: "docs"
 ---
+**[Notice]** [Journey to the academic researcher](https://ziofinlab.github.io/biography/bio/)
+This is the story of how I became the insightful researcher.
+{: .notice--info}
+
 
 This is a stock selection model through neural networks technology. Based on more than ten years of previous data, the model returns the set of stocks that can have the highest returns through the neural networks.
 

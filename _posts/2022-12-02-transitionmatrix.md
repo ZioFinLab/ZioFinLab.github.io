@@ -8,6 +8,10 @@ sidebar:
     nav: "docs"
 ---
 
+**[Notice]** [Journey to the academic researcher](https://ziofinlab.github.io/biography/bio/)
+This is the story of how I became the insightful researcher.
+{: .notice--info}
+
 The transition matrix gives the probability of transitioning from one ESG rating state to any other state. That transition matrix would, of course, just reflect probabilities for the single period observed here. Assuming that single period sample can be considered representative, what are the steady state probabilities of ending up with each rating? That is, what is the steady state vector of this markov process?
 
 

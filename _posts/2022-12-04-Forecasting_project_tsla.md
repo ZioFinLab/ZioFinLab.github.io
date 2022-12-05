@@ -7,6 +7,9 @@ author_profile: false
 sidebar:
     nav: "docs"
 ---
+**[Notice]** [Journey to the academic researcher](https://ziofinlab.github.io/biography/bio/)
+This is the story of how I became the insightful researcher.
+{: .notice--info}
 
 The subject of this report is whether the fluctuation of cryptocurrency can explain the change in the stock price of Tesla. Since Tesla announced that they accept cryptocurrency to buy their products Tesla and holds about 2 billion dollars, some financial analysts have claimed that the effect of the volatility of cryptocurrency is huge for the stock price of Tesla. Furthermore, As the stock price of Tesla has skyrocketed since the pandemic, Elon Musk, CEO of Tesla, has influenced not only the stock price but also the price of cryptocurrency especially the DOGE coin. We will use two methods for forecasting 1) the traditional approach: forecasting the stock price through VAR(Vector auto-regression with whole variables). 2) LASSO approach: forecasting it through VAR with LASSO eliminating the variables that have low coefficients.
 

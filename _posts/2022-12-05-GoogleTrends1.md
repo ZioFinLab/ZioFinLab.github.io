@@ -7,6 +7,9 @@ author_profile: false
 sidebar:
     nav: "docs"
 ---
+**[Notice]** [Journey to the academic researcher](https://ziofinlab.github.io/biography/bio/)
+This is the story of how I became the insightful researcher.
+{: .notice--info}
 
 Google trend is an excellent measurement of consumers' attention to specific keywords. Professor Hye Seung Lee wanted to get Google Trends data to identify consumers' attention to negative ESG issues in companies.
 The problem with using Google API is that Google has an auto bot to restrict users who request too much data and that the API does not have an extended range of functions to get extensive data set. To solve those problems, I used headers for the bot to consider my IP as everyday users, and I applied season adjustment skills that I learned from EY to shift semi-annual data to three years data. I attached a helpful website to understand how to write 'headers' below.
