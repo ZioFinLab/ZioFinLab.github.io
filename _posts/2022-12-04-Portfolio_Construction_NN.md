@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Stock construction model with Neural Networks"
-categories: [S&P500, Python, Categorization models, Random Forest, Neural Networks]
+categories: [Prediction model, Python, Stock selection, Portfolio management, Neural Networks]
 toc: true
 author_profile: false
 sidebar:
