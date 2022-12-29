@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "How Covid Shifted Macroeconomic Factors Affecting Unemployment: what makes an economy resilient"
+title: "How Covid Shifted Macroeconomic Factors Affecting Unemployment: what makes an economy resilient (Fall 2021)"
 categories: [Financial Econometrics, Python, Multivariable regression]
 toc: true
 author_profile: false

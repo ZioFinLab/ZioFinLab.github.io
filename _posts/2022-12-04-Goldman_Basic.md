@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Binomial Asset Pricing Model Based on Goldman Sachs theory"
+title: "Binomial Asset Pricing Model Based on Goldman Sachs theory (Winter 2021)"
 categories: [Binomial Asset Pricing Model, Python, Option pricing, Goldman Sachs]
 toc: true
 author_profile: false

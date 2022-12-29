@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Stock construction model with Neural Networks"
+title: "Stock construction model with Neural Networks (Fall 2022)"
 categories: [Prediction model, Python, Stock selection, Portfolio management, Neural Networks]
 toc: true
 author_profile: false

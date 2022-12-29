@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Text Analysis Code: whether a sentence is which ESG issues"
+title: "Text Analysis Code: whether a sentence is which ESG issues (Fall 2022)"
 categories: [ESG, risk factors, Python, Text analysis]
 toc: true
 author_profile: false

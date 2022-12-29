@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Twitter tweets scrapping model"
+title: "Twitter tweets scrapping model (Fall 2022)"
 categories: [Twitter, Python, Text analysis]
 toc: true
 author_profile: false

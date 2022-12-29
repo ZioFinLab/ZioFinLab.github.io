@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "How to scrappe Google Trends with Python"
+title: "How to scrappe Google Trends with Python (Fall 2022)"
 categories: [Google Trends, Python, Text analysis]
 toc: true
 author_profile: false

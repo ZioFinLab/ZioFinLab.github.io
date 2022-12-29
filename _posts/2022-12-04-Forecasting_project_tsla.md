@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Forecasting the stock price of Tesla with cryptocurrencies"
+title: "Forecasting the stock price of Tesla with cryptocurrencies (Fall 2021)"
 categories: [Stock price forecasting, Python, Neural Networks]
 toc: true
 author_profile: false

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Binomial Asset Pricing Model Based on TF theory"
+title: "Binomial Asset Pricing Model Based on TF theory (Summer 2022)"
 categories: [Binomial Asset Pricing Model, Python, Option pricing, TF model]
 toc: true
 author_profile: false
